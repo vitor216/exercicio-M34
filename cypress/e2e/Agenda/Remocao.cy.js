@@ -6,7 +6,6 @@ describe('Testes para função Remover contato cadastrado', () => {
     })
 
     it('Apagar Contato', () => {
-        cy.get('.delete').click({ multiple: true })
-        cy.get('.sc-dmqHEX').clear()
+        cy.get('.sc-beqWaB').first().find('.delete').click()
     })
 })
